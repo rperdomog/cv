@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}
+.sheet {
+    padding: 3rem;
+    max-width: 600px;
+    min-width: 300px;
+}
+.level1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.level1 img{
+    object-fit: cover;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50px;
+}
+.level1 .description{
+    padding: 0.5rem;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+  font-weight: bold  ;  
+}
+.level2 {
+    padding: 1rem;
+}
+.level3 {
+    padding: 1rem;
+}
+.level4 {
+    padding: 1rem;
+}
